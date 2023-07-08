@@ -37,7 +37,7 @@ function Products() {
     {products.map(item =>(
         <div key={item.id}>
           
-        <Link to={'/product/'}>
+        <Link to={'/products/{item.id}'}>
         <img src={item.images[0]} alt="images" className='image'/> 
         </Link> 
 
