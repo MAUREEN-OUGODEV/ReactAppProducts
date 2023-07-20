@@ -1,0 +1,23 @@
+nav{
+    justify-content: space-between;
+    background-color: rgba(106,190,106);
+
+    padding: 10px;
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    text-decoration: none;
+    gap: 20%;
+    margin-left: 30%;
+   
+    
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+   
+}

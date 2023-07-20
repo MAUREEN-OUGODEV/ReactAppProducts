@@ -4,11 +4,13 @@ import './App.css';
 import Login from './Login';
 import Products from './Products';
 import ProductDetails from './ProductDetails';
+import Navigation  from './navigationBar';
 
 function App() {
   return (
     
      <div>
+      <Navigation />
       <BrowserRouter>
       <Routes>
 

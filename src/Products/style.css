@@ -6,10 +6,17 @@
 }
 .image{
     width: 50%;
-    height: 70%;
+    height: 50%;
     border-radius: 20px;
     margin-top: 20%;
 }
 .product{
     text-align: center;
+}
+.button{
+    
+   
+    border-radius: 20px;
+    margin-left: 25%;
+
 }

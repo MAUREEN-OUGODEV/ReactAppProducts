@@ -2,6 +2,7 @@ import React , {useState,useEffect} from 'react';
 import './style.css';
 import {Link} from'react-router-dom';
 
+
 function Products() {
     const[products,setProducts]= useState([]);
     const[loading,setLoading] = useState(false);
@@ -45,6 +46,7 @@ function Products() {
         <p>Price:{item.price}</p>
         
         <p>Discount:{item.discountPercentage} </p>
+        <button className='button'> +Add Product</button>
         
         </div>
     ))}
